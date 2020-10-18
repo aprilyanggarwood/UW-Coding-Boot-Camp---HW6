@@ -1,0 +1,23 @@
+.jumbotron{
+margin-bottom:0px;
+color:white;
+background-color:gray
+
+}
+
+.search{
+
+padding-top: 5px;
+margin-bottom: 15px;
+
+}
+
+.card{
+    margin-left: 15px;
+}
+
+/* #rowDiv{
+margin:auto;
+text-align: right;
+width: 60%;
+} */
