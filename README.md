@@ -1,4 +1,4 @@
-# Weather Dashboard HW6( )
+# Weather Dashboard [HW6](https://aprilyanggarwood.github.io/UW-Coding-Boot-Camp---HW6/)
 
 ## How this weather dashboard work for user:
 
