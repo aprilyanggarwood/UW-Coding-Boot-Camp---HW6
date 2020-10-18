@@ -71,10 +71,10 @@ function getWeather(city) {
                </span>
                <span id="icon-img"><img src="https://openweathermap.org/img/wn/${
                  response.weather[0].icon
-               }@2x.png">
+               }.png">
               </span>
              </h5>
-             <p id="temp">${"Temperature：" + response.main.temp}</p>
+             <p id="temp">${"Temperature：" + response.main.temp + "\xB0F"}</p>
              <p id="humidity">${"Humidity：" + response.main.humidity + "%"}</p>
              <p id="windSpeed">${
                "Wind Speed：" + response.wind.speed + "MPH"
@@ -98,6 +98,8 @@ function getWeather(city) {
           uvi <= 2 ? "btn-primary" : uvi <= 8 ? "btn-warning" : "btn-danger"
         );
         // 5 days forcast data is displyed by for loop function
+        $("#5day").html(`<h5>5-Day Forecast</h5>`);
+
         $("#forecast").html("");
 
         for (let i = 1; i < 6; i++) {
@@ -105,7 +107,7 @@ function getWeather(city) {
           <div class="col-2">
           <div
           class="card text-white bg-info mb-3"
-          style="max-width: 48rem"
+          style="max-width: 110rem"
           >
           <div class="card-body">
           <h5 class="card-title">${
@@ -114,12 +116,14 @@ function getWeather(city) {
             data.daily[i].dt * 1000
           ).getUTCFullYear()}</h5>
           
-          <p id="icon-img"><img src="https://openweathermap.org/img/wn/${
+          <p class="icon-img2"><img src="https://openweathermap.org/img/wn/${
             data.daily[i].weather[0].icon
           }@2x.png"></p>
 
-          <p class="card-text">${"Temperature：" + data.daily[i].temp.day}\n
-          ${"Humidity: " + data.daily[i].humidity}
+          <p class="card-text"><p>${
+            "Temp：" + data.daily[i].temp.day + "\xB0F"
+          }</p>
+          <p>${"Humidity: " + data.daily[i].humidity + "%"}</p>
           </p>
           
           

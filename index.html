@@ -22,8 +22,8 @@
   </head>
 
   <body>
-    <div class="navbar bg-dark">
-      <h2 class="text-center" style="font-size: 50px; font-weight: 600">
+    <div class="navbar bg-secondary">
+      <h2 class="text-center" style="font-size: 50px; font-weight: 600; color:white; padding: 1rem 1rem;">
         Weather Dashboard
       </h2>
     </div>
@@ -49,11 +49,12 @@
                 <button
                   class="btn btn-primary"
                   id="submitCity"
-                  style="width: 12%"
+                  style="width: 12%; margin-left: 5px;"
                 >
                   <i class="fas fa-search"></i>
                 </button>
-                <button id="clearHistory" style="width: 20%">Clear Search</button>
+                <button class="btn btn-primary" id="clearHistory"
+                  style="width: 12%; margin-left: 5px;"><i class="fas fa-trash-alt"></i></button>
               </form>
               <div id="error"></div>
               <div class="showWeather"></div>
@@ -66,9 +67,9 @@
           <div class="jumbotron" id="currentCitytWeather">
           </div>
           <!-- 5 days forecast's data will be displayed in this div  -->
-          <h5 >5-Day Forecast</h5>
+          <div id="5day"></div>
           <div
-            class="row mt-4"
+            class="row mt-3"
             id="forecast"
             style="justify-content: space-evenly"
           >

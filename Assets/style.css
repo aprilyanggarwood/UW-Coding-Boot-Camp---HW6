@@ -1,7 +1,8 @@
 .jumbotron{
-margin-bottom:0px;
-color:white;
-background-color:gray
+margin-bottom:10px;
+color:black;
+/* background-color: lightgray; */
+padding: 2px;
 
 }
 
@@ -12,12 +13,35 @@ margin-bottom: 15px;
 
 }
 
-.card{
+/* .card{
     margin-left: 15px;
-}
+} */
 
 /* #rowDiv{
 margin:auto;
 text-align: right;
 width: 60%;
 } */
+
+#icon-img {
+    background-color: lightblue;
+    padding-bottom: 10px;
+    border-radius: .3rem;
+}
+
+.icon-img2{
+ padding: 0px;
+
+
+}
+
+.col-2{
+padding:0px;
+
+}
+
+.card-body{
+/* padding: 0.5rem; */
+text-align: center;
+
+}
