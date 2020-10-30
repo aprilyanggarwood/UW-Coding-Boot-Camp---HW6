@@ -1,6 +1,6 @@
 // global variables
 
-let currentDay = moment();
+// let currentDay = moment();
 
 // Use JSON.parse() to convert the text in local storage into an object
 let searchedCities = JSON.parse(localStorage.getItem("cities")) || [];
@@ -133,9 +133,6 @@ function getWeather(city) {
         }
       });
     });
-  }
-
-  {
   }
 
   // } else {

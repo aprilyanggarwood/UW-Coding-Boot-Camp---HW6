@@ -19,3 +19,9 @@
   Two API calls were used to get the correct date. The Current Weather Data URL is used for getting the cities name and the current weather data. The One Call API URL is used for getting the lat and lon data, UV Index data , and the 5 days forcast data.
 
   Jquary.\$.ajax() method was usded to make API calls and responses.
+
+  ## Demo
+
+![Weather Dashboard](/assets/demo/image1.png)
+![Weather Dashboard](/assets/demo/image2.png)
+![Weather Dashboard](/assets/demo/WeatherDashboard.gif)
