@@ -22,6 +22,6 @@
 
   ## Demo
 
-![Weather Dashboard](/assets/demo/image1.png)
-![Weather Dashboard](/assets/demo/image2.png)
-![Weather Dashboard](/assets/demo/WeatherDashboard.gif)
+![Weather Dashboard](demo/image1.png)
+![Weather Dashboard](demo/image2.png)
+![Weather Dashboard](demo/WeatherDashboard.gif)
